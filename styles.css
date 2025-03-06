@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232830;
+}
+
+.container {
+    max-width: 1280px;
+    margin:  auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
+}
+
+.logo, .nav a {
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.logo {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.nav a {
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    margin: 0 36px;
+}
+
+.title-section {
+    text-align: center;
+}
+
+.title-section img {
+    width: 194.45px;
+    height: 204.08px;
+    margin-bottom: 21px;
+}
+
+.title {
+    font-family: "Recursive";
+    font-size: 71px;
+    font-style: italic;
+    line-height: 85.2px;
+    color: #FF7575;
+    margin: 40.92px 0;
+    margin-bottom: 17px;
+}
+
+.subtitle {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 43.5px;
+    margin-bottom: 99px;
+    color: #FFFFFF;
+}
+
+.separator {
+    width: 100%;
+    background-color: #4D4D4D;
+    height: 3px;
+    margin: 16px 0;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 94px;
+}
+
+.categories i{
+    color: #909090;
+    width: 24px;
+    height: 25.09px;
+}
+
+.categories span {
+    font-family: "Recursive";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 32.4px;
+    color: #909090;
+    margin-right: 36px;
+}
+
+.explainer-text {
+   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 37px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    overflow: hidden;
+    background: #FFFFFF;
+    width: 390px;
+    height: 439px;
+    border-radius: 22px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 26px;
+}
+
+.card img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 337.08px;
+    height: 160px;
+    margin-bottom: 33px;
+}
+
+.card-title {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28.5px;
+    color: #0F1217;
+    margin-bottom: 13px;
+}
+
+.card-decription, .card-footer {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F1217;
+}
+
+.card-decription {
+    margin-bottom: 24px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.pagination {
+    /*margin-top: 115px;*/
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: italic;
+    color: #909090;
+    font-family: "Recursive";
+    position: relative;
+    text-align: center;
+    padding: 157px;
+}
+
+.pagination span {
+    margin: 0 43px;
+    position: relative;
+}
+
+.pagination .active {
+    color: #FF7575;
+}
+
+.pagination .active::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 54px;
+    height: 2px;
+    background-color: #ff7575;
+    transform: translateX(-50%);
+}
+
+.pagination::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #4D4D4D;
+    bottom: -10px;
+    left: 0;
+}
+
+.footer {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-family: "Source Sans 3";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37.71px;
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 32px 211px;
+}
+
+.footer strong {
+    font-weight: 600;
+    font-family: "Source Sans 3";
+    font-size: 30px;
+    line-height: 37.71px; 
+}
+
+.footer span {
+    background-color: #4699E0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: "Source Sans 3";
+    font-size: 19px;
+    line-height: 23.88px;
+    text-decoration: none;
+    padding: 4px 13px;
+}
+
+
+
